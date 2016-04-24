@@ -13,7 +13,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="473.0" prefWidth="687.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Accordion layoutX="1.0" layoutY="3.0" prefHeight="473.0" prefWidth="687.0">
@@ -120,13 +119,13 @@
                               <TableColumn prefWidth="129.00000309944153" text="Transaction date" />
                               <TableColumn prefWidth="102.0" text="Gateway" />
                               <TableColumn prefWidth="143.99998474121094" text="Transaction ID" />
-                              <TableColumn prefWidth="120.0" text="Amount" />
-                              <TableColumn minWidth="0.0" prefWidth="131.0" text="Balance playable" />
+                              <TableColumn prefWidth="126.0" text="Amount" />
+                              <TableColumn minWidth="0.0" prefWidth="150.0" text="Balance playable" />
                            </columns>
                         </TableView>
-                        <Button layoutX="16.0" layoutY="242.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="90.0" text="Add" />
-                        <Button layoutX="113.0" layoutY="241.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="90.0" text="Edit" />
-                        <Button layoutX="211.0" layoutY="242.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="90.0" text="Delete" />
+                        <Button layoutX="16.0" layoutY="279.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="90.0" text="Add" />
+                        <Button layoutX="113.0" layoutY="279.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="90.0" text="Edit" />
+                        <Button layoutX="211.0" layoutY="279.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="90.0" text="Delete" />
                      </children>
                   </AnchorPane>
                </content>
